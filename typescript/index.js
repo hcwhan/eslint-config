@@ -7,7 +7,7 @@ const extensionRuleNames = [
     'comma-dangle',
     'comma-spacing',
     'default-param-last',
-    'dot-notation',
+    // 'dot-notation', // project
     'func-call-spacing',
     'indent',
     'init-declarations',
@@ -19,22 +19,21 @@ const extensionRuleNames = [
     'no-empty-function',
     'no-extra-parens',
     'no-extra-semi',
-    'no-implied-eval',
+    // 'no-implied-eval', // project
     'no-invalid-this',
     'no-loop-func',
     'no-loss-of-precision',
     'no-magic-numbers',
     'no-redeclare',
     'no-shadow',
-    'no-throw-literal',
+    // 'no-throw-literal', // project
     'no-unused-expressions',
     'no-unused-vars',
     'no-use-before-define',
     'no-useless-constructor',
     'object-curly-spacing',
     'quotes',
-    'require-await',
-    // "return-await",
+    // 'require-await', // project
     'semi',
     'space-before-function-paren',
     'space-infix-ops',
@@ -52,7 +51,7 @@ module.exports = {
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
-        project: 'tsconfig.json',
+        // project: 'tsconfig.json',
     },
     rules: {
         // "@typescript-eslint/eslint-plugin": "^4.29.2",
