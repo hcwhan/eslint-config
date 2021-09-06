@@ -50,7 +50,7 @@ module.exports = {
             },
         },
     ],
-    extends: ['plugin:vue/vue3-recommended', 'vue-global-api', './eslint.ts.js'],
+    extends: ['plugin:vue/vue3-recommended', './eslint.ts.js'],
     parserOptions: {
         extraFileExtensions: ['.vue'],
     },
@@ -84,7 +84,13 @@ module.exports = {
             },
         ],
         'vue/block-tag-newline': ['off'],
-        'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+        'vue/component-name-in-template-casing': [
+            'error',
+            'PascalCase',
+            {
+                registeredComponentsOnly: false,
+            },
+        ],
         'vue/custom-event-name-casing': ['error', 'kebab-case'],
         'vue/html-button-has-type': ['off'],
         'vue/html-comment-content-newline': ['off'],
