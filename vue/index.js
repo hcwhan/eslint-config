@@ -50,7 +50,7 @@ module.exports = {
             },
         },
     ],
-    extends: ['plugin:vue/vue3-recommended', './eslint.ts.js'],
+    extends: ['plugin:vue/vue3-recommended', '../typescript/index.js'],
     parserOptions: {
         extraFileExtensions: ['.vue'],
     },

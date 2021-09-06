@@ -47,7 +47,7 @@ extensionRulesByBasic['return-await'] = basic.rules['no-return-await']
 
 module.exports = {
     overrides: [],
-    extends: ['./eslint.basic.js', 'plugin:@typescript-eslint/recommended'],
+    extends: ['../basic/index.js', 'plugin:@typescript-eslint/recommended'],
     plugins: ['@typescript-eslint'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
