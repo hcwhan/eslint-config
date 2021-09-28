@@ -175,7 +175,7 @@ module.exports = {
         ],
         'no-undef-init': ['off'],
         'no-undefined': ['off'],
-        'no-use-before-define': ['error', { functions: false }],
+        'no-use-before-define': ['error', { functions: false, variables: false }],
 
         /* Stylistic Issues */
         'array-bracket-newline': ['error', 'consistent'],
